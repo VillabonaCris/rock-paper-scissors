@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  background-color: white;
+}
+.title-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title-container button{
+  width: 100px;
+  height: 30px;
+  background-color: rgb(10,255,30);
+  border-radius: 10px;
+  border: 2px solid olive;
+}
+.title-container button:hover{
+  width: 105px;
+  height: 35px;
+  border: none;
+  box-shadow: 3px 3px olive;
+}
+
+.game-container{
+  display: none;
+}
+.game-score-container{
+  display: flex;
+  justify-content: space-around;
+}
+.game-button-container{
+  display: flex;
+  justify-content: center;
+}
+
+.game-button-container button{
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+}
